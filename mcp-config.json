@@ -1,7 +1,7 @@
 {
   "mcp": {
     "command": "npx",
-    "args": ["@playwright/test", "mcp"],
+    "args": ["-y", "@executeautomation/playwright-mcp-server"],
     "env": {
       "PLAYWRIGHT_CONFIG": "./playwright.config.ts"
     }
