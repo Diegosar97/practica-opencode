@@ -1,0 +1,9 @@
+{
+  "mcp": {
+    "command": "npx",
+    "args": ["@playwright/test", "mcp"],
+    "env": {
+      "PLAYWRIGHT_CONFIG": "./playwright.config.ts"
+    }
+  }
+}
